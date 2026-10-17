@@ -1,0 +1,22 @@
+:root { font-family: Inter, system-ui, Arial, sans-serif; color: #f7f7f7; background: #090909; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+main { max-width: 960px; margin: auto; padding: 24px 16px 48px; }
+header { text-align: center; padding: 18px 0 26px; }
+header h1 { margin: 4px 0; letter-spacing: 2px; }
+header p, .hint, small, footer { color: #aaa; }
+.crown { color: #ffcc00; font-size: 48px; }
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; }
+.panel { background: #171717; border: 1px solid #292929; border-radius: 14px; padding: 20px; margin: 0 0 16px; min-width: 0; }
+.panel h2 { margin-top: 0; }
+label { display: block; margin: 10px 0 7px; font-size: 14px; }
+input { width: 100%; border: 1px solid #444; background: #0d0d0d; color: white; border-radius: 8px; padding: 12px; }
+button { display: block; width: 100%; margin-top: 12px; padding: 12px; border: 0; border-radius: 8px; background: #ffcc00; color: #111; font-weight: 700; cursor: pointer; }
+button:disabled { opacity: .5; cursor: not-allowed; }
+.qr { display: block; width: min(100%, 280px); margin: 16px auto; padding: 8px; background: white; border-radius: 8px; }
+.waiting { text-align: center; padding: 60px 0; color: #aaa; }
+.pair-code { text-align: center; font-size: clamp(28px, 8vw, 44px); letter-spacing: 6px; color: #ffcc00; margin: 20px 0; font-weight: 800; }
+.hint { font-size: 12px; }
+pre { white-space: pre-wrap; overflow-wrap: anywhere; background: #0b0b0b; border-radius: 8px; padding: 14px; max-height: 420px; overflow: auto; }
+.error { background: #421b1b; border: 1px solid #8d3c3c; border-radius: 8px; padding: 12px; margin-bottom: 16px; }
+footer { text-align: center; font-size: 12px; padding: 20px; }

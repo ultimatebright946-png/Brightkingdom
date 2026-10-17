@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: bright-kingdom-api
+    runtime: node
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: npm start
+    disk:
+      name: bright-kingdom-data
+      mountPath: /var/data
+      sizeGB: 1
+    envVars:
+      - key: NODE_VERSION
+        value: 20
+      - key: DATA_DIR
+        value: /var/data
+      - key: DASHBOARD_KEY
+        generateValue: true
+      - key: FRONTEND_URL
+        sync: false

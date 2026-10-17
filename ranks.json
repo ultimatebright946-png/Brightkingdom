@@ -1,0 +1,18 @@
+{
+  "kingdomName": "Bright",
+  "ranks": {
+    "king": { "name": "𝕶𝖎𝖓𝖌", "authority": 100, "users": [] },
+    "queen": { "name": "𝕼𝖚𝖊𝖊𝖓", "authority": 90, "users": [] },
+    "prince": { "name": "𝕻𝖗𝖎𝖓𝖈𝖊", "authority": 80, "users": [] },
+    "princess": { "name": "𝕻𝖗𝖎𝖓𝖈𝖊𝖘𝖘", "authority": 80, "users": [] },
+    "duke": { "name": "𝕯𝖚𝖐𝖊", "authority": 80, "users": [] },
+    "duchess": { "name": "𝕯𝖚𝖈𝖍𝖊𝖘𝖘", "authority": 80, "users": [] },
+    "lord": { "name": "𝕷𝖔𝖗𝖉", "authority": 70, "users": [] },
+    "legend": { "name": "𝕷𝖊𝖌𝖊𝖓𝖉", "authority": 70, "users": [] },
+    "jester": { "name": "𝕵𝖊𝖘𝖙𝖊𝖗", "authority": 60, "users": [] },
+    "paladin": { "name": "𝕻𝖆𝖑𝖆𝖉𝖎𝖓", "authority": 59, "users": [] },
+    "baron": { "name": "𝕭𝖆𝖗𝖔𝖓", "authority": 50, "users": [] },
+    "knight": { "name": "𝕶𝖓𝖎𝖌𝖍𝖙", "authority": 43, "users": [] },
+    "slave": { "name": "𝕾𝖑𝖆𝖛𝖊", "authority": 10, "users": [] }
+  }
+}
